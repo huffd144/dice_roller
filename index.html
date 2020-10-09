@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>dice roller</title>
+    <link rel="stylesheet" href="./assets/style.css" />
+  </head>
+  <body>
+    <label for="name">number of dice used:</label>
+    <input
+      type="text"
+      id="diceroller"
+      name="name"
+      minlength="5"
+      maxlength="10"
+      size="12"
+    />
+    <button id="rolldice">rolldice</button>
+    <div id="total">total:</div>
+    <button id="showAllRolls">showAllRolls</button>
+    <button id="reset">reset</button>
+    <div id="allRolls">
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+    </div>
+    <script src="./assets/main.js"></script>
+  </body>
+</html>
